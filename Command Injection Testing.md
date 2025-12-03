@@ -18,11 +18,11 @@ Attempted to bypass filters using encoded payloads.
 
 SafeLine provides protection modes such as:
 
-    Mode	Behavior
+    Mode	       Behavior
     Disabled	WAF does not block anything
-    Audit	Logs the attack but allows the traffic
-    Balanced	Blocks common attacks, allows normal traffic
-    Strict	Highly aggressive blocking, preferred for high-security environments
+    Audit	    Logs the attack but allows the traffic
+    Balanced    Blocks common attacks, allows normal traffic
+    Strict	    Highly aggressive blocking, preferred for high-security environments
     
 # 🔸 Observed Results:
 
