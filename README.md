@@ -109,7 +109,7 @@ Expected containers include:
 
 If all containers are UP, SafeLine is fully operational.
 
-⭐ 6. Ready for Integration with DVWA
+# ⭐ 6. Ready for Integration with DVWA
 
 Once installation is complete, the next step is connecting SafeLine WAF with DVWA by:
 
