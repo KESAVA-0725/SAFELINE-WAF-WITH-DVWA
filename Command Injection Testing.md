@@ -12,6 +12,8 @@ Performed DVWA command injection tasks using payloads like:
     8.8.8.8; cat /etc/passwd 
 
 
+![image](https://github.com/KESAVA-0725/SAFELINE-WAF-WITH-DVWA/blob/main/images/Screenshot%202025-12-04%20024059.png?raw=true)
+
 Attempted to bypass filters using encoded payloads.
 
 # 🔸 SafeLine Operation Modes (very important):
