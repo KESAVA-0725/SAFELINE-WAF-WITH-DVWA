@@ -2,6 +2,8 @@
 
 SafeLine allows creating custom rules to control traffic:
 
+![image](https://github.com/KESAVA-0725/SAFELINE-WAF-WITH-DVWA/blob/main/images/Screenshot%202025-12-04%20013300.png?raw=true)
+
 # 🔸 What you configured:
 
 * Allow Rules → Specific IPs or patterns always allowed
