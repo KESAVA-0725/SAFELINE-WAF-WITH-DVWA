@@ -47,7 +47,7 @@ During installation, SafeLine performs several automated checks:
 
 This automation ensures the WAF can run with minimal admin intervention.
 
-⭐ 3. Automatic Credential Generation
+# ⭐ 3. Automatic Credential Generation
 
 Once installation finishes, SafeLine prints out initial login credentials, typically containing:
 
@@ -59,7 +59,7 @@ Once installation finishes, SafeLine prints out initial login credentials, typic
 
 These credentials are generated only once during installation and are required to access the SafeLine management panel.
 
-⭐ 4. Deploying the WAF Dashboard
+# ⭐ 4. Deploying the WAF Dashboard
 
 After installation, the SafeLine dashboard becomes accessible at:
 
