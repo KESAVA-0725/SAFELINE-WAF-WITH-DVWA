@@ -76,17 +76,17 @@ At this stage:
 
 * The dashboard provides an interface to manage:
 
-  Protection rules
+    * Protection rules
 
-  Traffic statistics
+    * Traffic statistics
 
-  Attack logs
+    * Attack logs
 
-  Custom policies
+    * Custom policies
 
-  Authentication blocks
+    * Authentication blocks
 
-  Dynamic protection settings
+    * Dynamic protection settings
 
 # ⭐ 5. Verifying Installation
 
@@ -113,18 +113,18 @@ If all containers are UP, SafeLine is fully operational.
 
 # ⭐ 6. Ready for Integration with DVWA
 
-Once installation is complete, the next step is connecting SafeLine WAF with DVWA by:
+* Once installation is complete, the next step is connecting SafeLine WAF with DVWA by:
 
-Configuring DVWA’s IP/Domain inside SafeLine
+* Configuring DVWA’s IP/Domain inside SafeLine
 
-Setting SafeLine as the reverse proxy
+* Setting SafeLine as the reverse proxy
 
-Routing attacker traffic through SafeLine to observe:
+* Routing attacker traffic through SafeLine to observe:
 
-Attack detection
+   * Attack detection
 
-Blocking
+   * Blocking
 
-Logging
+   * Logging
 
-Auto-protection modes
+   * Auto-protection modes
