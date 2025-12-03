@@ -32,4 +32,6 @@ Strict mode blocked all malicious commands immediately.
 
 Audit mode logged the attack but still executed the request.
 
+![image](https://github.com/KESAVA-0725/SAFELINE-WAF-WITH-DVWA/blob/main/images/Screenshot%202025-12-03%20233650.png?raw=true)
+
 Balanced mode allowed safe inputs and blocked obvious attack patterns.
