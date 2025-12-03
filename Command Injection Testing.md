@@ -1,4 +1,4 @@
-# ⭐ 2. Command Injection Testing
+# ⭐  Command Injection Testing
 
 # 🔸 What is Command Injection?
 
