@@ -7,21 +7,21 @@ To begin the home-lab setup, SafeLine WAF was installed using the Automatic Depl
 
 # ⭐ 1. Downloading and Running the Installation Script
 
-SafePoint provides a pre-built installation script that can be executed directly from the terminal. This script:
+* SafePoint provides a pre-built installation script that can be executed directly from the terminal. This script:
 
-Fetches the latest SafeLine packages
+* Fetches the latest SafeLine packages
 
-Installs necessary runtime dependencies
+* Installs necessary runtime dependencies
 
-Configures network listeners
+* Configures network listeners
 
-Installs system service entries
+* Installs system service entries
 
-Starts the WAF engine automatically
+* Starts the WAF engine automatically
 
-The typical installation command looks like this:
+* The typical installation command looks like this:
 
-**COMMAND (AUTOMATIC DEPLOY) -> bash -c "$(curl -fsSLk https://waf.chaitin.com/release/latest/manager.sh)" -- --en)
+* COMMAND (AUTOMATIC DEPLOY) -> bash -c "$(curl -fsSLk https://waf.chaitin.com/release/latest/manager.sh)" -- --en)
 
 ![image](https://github.com/KESAVA-0725/SAFELINE-WAF-WITH-DVWA/blob/main/images/Screenshot%202025-11-28%20160420.png?raw=true)
 
@@ -31,21 +31,21 @@ The typical installation command looks like this:
 
 During installation, SafeLine performs several automated checks:
 
-=> Verifies OS compatibility (Ubuntu/CentOS)
+* Verifies OS compatibility (Ubuntu/CentOS)
 
-=> Installs required packages (Docker, container runtime, certificates)
+* Installs required packages (Docker, container runtime, certificates)
 
-=> Sets up required folders under /opt/safeline
+* Sets up required folders under /opt/safeline
 
-=> Pulls SafeLine WAF engine containers
+* Pulls SafeLine WAF engine containers
 
-=> Configures network ports for:
+* Configures network ports for:
 
-=> 9443 → Web Dashboard
+   * 9443 → Web Dashboard
 
-=> 80/443 → Reverse Proxy Entry Points
+   * 80/443 → Reverse Proxy Entry Points
 
-=>Enables firewall rules if required
+* Enables firewall rules if required
 
 This automation ensures the WAF can run with minimal admin intervention.
 
@@ -53,11 +53,11 @@ This automation ensures the WAF can run with minimal admin intervention.
 
 Once installation finishes, SafeLine prints out initial login credentials, typically containing:
 
-=>Admin Username
+* Admin Username
 
-=>Admin Password
+* Admin Password
 
-=>Dashboard URL (https://<your-ip>:9443)
+* Dashboard URL (https://<your-ip>:9443)
 
 These credentials are generated only once during installation and are required to access the SafeLine management panel.
 
@@ -70,11 +70,11 @@ After installation, the SafeLine dashboard becomes accessible at:
 
 At this stage:
 
-=> The WAF backend, rule engine, and management services run as Docker containers.
+* The WAF backend, rule engine, and management services run as Docker containers.
 
-=> HTTPS is enabled by default using system-generated certificates.
+* HTTPS is enabled by default using system-generated certificates.
 
-=> The dashboard provides an interface to manage:
+* The dashboard provides an interface to manage:
 
   Protection rules
 
@@ -97,17 +97,17 @@ To ensure installation completed correctly, the following commands can be used:
 
 Expected containers include:
 
-=> safeline-mgt
+* safeline-mgt
 
-=> safeline-luigi
+* safeline-luigi
 
-=> safeline-pg
+* safeline-pg
 
-=> safeline-chaos
+* safeline-chaos
 
-=> safeline-detector
+* safeline-detector
 
-=> safeline-tengine
+* safeline-tengine
 
 If all containers are UP, SafeLine is fully operational.
 
