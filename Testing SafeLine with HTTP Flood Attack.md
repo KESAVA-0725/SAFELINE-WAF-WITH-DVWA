@@ -16,7 +16,7 @@ Request method (GET/POST)
 
 Time duration
 
-#🔸 SafeLine Response:
+# 🔸 SafeLine Response:
 
 SafeLine detected the abnormal request volume.
 
