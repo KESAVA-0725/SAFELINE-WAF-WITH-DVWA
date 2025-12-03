@@ -1,4 +1,4 @@
-# ⭐ 5. Allow & Deny Rules (Access Control)
+# ⭐  Allow & Deny Rules (Access Control)
 
 SafeLine allows creating custom rules to control traffic:
 
