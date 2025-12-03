@@ -117,6 +117,8 @@ If all containers are UP, SafeLine is fully operational.
 
 * Configuring DVWA’s IP/Domain inside SafeLine
 
+![image](https://github.com/KESAVA-0725/SAFELINE-WAF-WITH-DVWA/blob/main/images/Screenshot%202025-12-04%20031724.png?raw=true)
+
 * Setting SafeLine as the reverse proxy
 
 * Routing attacker traffic through SafeLine to observe:
