@@ -1,4 +1,4 @@
-# ⭐ 1. Testing SafeLine with HTTP Flood Attack
+# ⭐  Testing SafeLine with HTTP Flood Attack
 
 # 🔸 What is HTTP Flood?
 
