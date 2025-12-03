@@ -1,4 +1,4 @@
-⭐ 4. Authentication Flow (SafeLine AUTH Option)
+⭐  Authentication Flow (SafeLine AUTH Option)
 
 SafeLine provides an authentication mechanism that stands between users and the application.
 
