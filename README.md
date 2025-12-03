@@ -23,6 +23,8 @@ The typical installation command looks like this:
 
 **COMMAND (AUTOMATIC DEPLOY) -> bash -c "$(curl -fsSLk https://waf.chaitin.com/release/latest/manager.sh)" -- --en)
 
+![image](https://github.com/KESAVA-0725/SAFELINE-WAF-WITH-DVWA/blob/main/images/Screenshot%202025-11-28%20160420.png?raw=true)
+
 
 
 # ⭐ 2. Automated Environment Configuration
