@@ -1,4 +1,4 @@
-# ⭐ 6. Dynamic Protection Features
+# ⭐  Dynamic Protection Features
 
 SafeLine provides advanced dynamic defenses:
 
