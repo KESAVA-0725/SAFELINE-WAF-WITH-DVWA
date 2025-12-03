@@ -6,26 +6,26 @@ An HTTP Flood is a DDoS attack where the attacker sends a massive number of HTTP
 
 # 🔸 What you performed:
 
-Configured DVWA (acting as the attacker machine) to generate rapid HTTP requests.
+1. Configured DVWA (acting as the attacker machine) to generate rapid HTTP requests.
 
-Adjusted flood parameters such as:
+2. Adjusted flood parameters such as:
 
-Number of hits
+   => Number of hits
 
-Request method (GET/POST)
+   =>Request method (GET/POST)
 
-Time duration
+   =>Time duration
 
 # 🔸 SafeLine Response:
 
-SafeLine detected the abnormal request volume.
+1. SafeLine detected the abnormal request volume.
 
-Blocked or throttled traffic based on the configured protection mode.
+2. Blocked or throttled traffic based on the configured protection mode.
 
-Generated visual attack logs showing:
+3. Generated visual attack logs showing:
 
-Request spikes
+   =>Request spikes
 
-Attacking IP
+   =>Attacking IP
 
-Decision taken (block/allow)
+   =>Decision taken (block/allow)
